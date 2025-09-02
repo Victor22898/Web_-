@@ -293,4 +293,103 @@ CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\
                5 файлов          4 925 байт
                2 папок  401 295 536 128 байт свободно
 
-(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>python manage.py migrate
+python: can't open file 'C:\\Users\\Виктор\\PycharmProjects\\PythonProject2\\learning_log\\learning_log\\manage.py': [Errno 2] No such file or directory
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27               417 asgi.py
+02.09.2025  10:27             3 301 settings.py
+02.09.2025  10:27               790 urls.py
+02.09.2025  10:27               417 wsgi.py
+02.09.2025  10:27                 0 __init__.py
+               5 файлов          4 925 байт
+               2 папок  401 293 217 792 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>python manage.py migrate
+python: can't open file 'C:\\Users\\Виктор\\PycharmProjects\\PythonProject2\\learning_log\\learning_log\\manage.py': [Errno 2] No such file or directory
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27               417 asgi.py
+02.09.2025  10:27             3 301 settings.py
+02.09.2025  10:27               790 urls.py
+02.09.2025  10:27               417 wsgi.py
+02.09.2025  10:27                 0 __init__.py
+               5 файлов          4 925 байт
+               2 папок  401 292 959 744 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>cd learning log
+Системе не удается найти указанный путь.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>cd learning_log
+Системе не удается найти указанный путь.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>python manage.py migrate
+python: can't open file 'C:\\Users\\Виктор\\PycharmProjects\\PythonProject2\\learning_log\\learning_log\\manage.py': [Errno 2] No such file or directory
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>cd manage.py
+Системе не удается найти указанный путь.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27               417 asgi.py
+02.09.2025  10:27             3 301 settings.py
+02.09.2025  10:27               790 urls.py
+02.09.2025  10:27               417 wsgi.py
+02.09.2025  10:27                 0 __init__.py
+               5 файлов          4 925 байт
+               2 папок  401 292 345 344 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>New-Item manage.py
+"New-Item" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>cd C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>New-Item manage.py
+"New-Item" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
