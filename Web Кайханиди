@@ -615,4 +615,28 @@ Migrations for 'learning_logs':
 
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
 
+SQL:
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py makemigrations learning_logs
+Migrations for 'learning_logs':
+  learning_logs\migrations\0001_initial.py
+    + Create model Topic
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.p
+y sqlmigrate learning_logs 0001
+BEGIN;
+--
+-- Create model Topic
+--
+CREATE TABLE "learning_logs_topic" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "text" varchar(200) NOT NULL, "date_added" datetime NOT NULL);
+COMMIT;
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py sqlmigrate learning_logs 0001 BEGIN;
+usage: manage.py sqlmigrate [-h] [--database {default}] [--backwards] [--version]
+                            [-v {0,1,2,3}] [--settings SETTINGS]
+                            [--pythonpath PYTHONPATH] [--traceback] [--no-color]    
+                            [--force-color] [--skip-checks]
+                            app_label migration_name
+manage.py sqlmigrate: error: unrecognized arguments: BEGIN;
+
 
