@@ -660,3 +660,10 @@ Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.
 
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+
+Создание файла admin: 
+from django.contrib import admin
+from .models import Topic
+
+# Register your models here.
+admin.site.register(Topic)
