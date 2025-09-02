@@ -1,0 +1,141 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\Виктор\PycharmProjects\PythonProject2>.venv\Scripts\activate     
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>pip install cowsay
+Collecting cowsay
+  Downloading cowsay-6.1-py3-none-any.whl.metadata (5.6 kB)
+Downloading cowsay-6.1-py3-none-any.whl (25 kB)
+Installing collected packages: cowsay
+Successfully installed cowsay-6.1
+
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>pip list
+Package          Version
+---------------- -------
+cowsay           6.1
+OpenOPC-Python3x 1.3.1
+pip              25.1.1
+Pyro4            4.82
+serpent          1.41
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>deactivate
+C:\Users\Виктор\PycharmProjects\PythonProject2>pip list
+Package          Version
+---------------- -------
+asgiref          3.9.1
+Django           5.2.5
+OpenOPC-Python3x 1.3.1
+pip              25.2
+Pyro4            4.82
+serpent          1.41
+sqlparse         0.5.3
+tzdata           2025.2
+
+C:\Users\Виктор\PycharmProjects\PythonProject2>.venv\Scripts\activate
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t 234
+  ___
+| 234 |
+  ===
+   \
+    \
+      ^__^
+      (oo)\_______
+      (__)\       )\/\
+          ||----w |
+          ||     ||
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>deactivate             
+C:\Users\Виктор\PycharmProjects\PythonProject2>.venv\Scripts\activate 
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t Hello world im cow Lucy
+usage: Cowsay [-h] [-c CHARACTER] -t TEXT [-v]
+Cowsay: error: unrecognized arguments: world im cow Lucy
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t Hello world            
+usage: Cowsay [-h] [-c CHARACTER] -t TEXT [-v]
+Cowsay: error: unrecognized arguments: world
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t Hello      
+  _____
+| Hello |
+  =====
+     \
+      \
+        ^__^
+        (oo)\_______
+        (__)\       )\/\
+            ||----w |
+            ||     ||
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t Hello_world
+  ___________
+| Hello_world |
+  ===========
+           \
+            \
+              ^__^
+              (oo)\_______
+              (__)\       )\/\
+                  ||----w |
+                  ||     ||
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t Hello_world_im_cow_Lucy
+  _______________________
+| Hello_world_im_cow_Lucy |
+  =======================
+                       \
+                        \
+                          ^__^
+                          (oo)\_______
+                          (__)\       )\/\
+                              ||----w |
+                              ||     ||
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>deactivate                        
+C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t 234          
+"cowsay" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Виктор\PycharmProjects\PythonProject2>.venv\Scripts\activate 
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>cowsay -t 234          
+  ___
+| 234 |
+  ===
+   \
+    \
+      ^__^
+      (oo)\_______
+      (__)\       )\/\
+          ||----w |
+          ||     ||
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>python3 -m venv ll_env
+Python 
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>diactivate
+"diactivate" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(.venv) C:\Users\Виктор\PycharmProjects\PythonProject2>deactivate  
+C:\Users\Виктор\PycharmProjects\PythonProject2> -m venv ll_env
+"-m" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Виктор\PycharmProjects\PythonProject2>mkdir learning_log
+
+C:\Users\Виктор\PycharmProjects\PythonProject2>cd learning_log
+
+C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python -m venv ll_env
+
+C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>source ll_env/bin/activate
+"source" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ll_env\Scripts\activate  
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
