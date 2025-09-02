@@ -274,15 +274,11 @@ CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\
 02.09.2025  10:27               690 manage.py
                1 файлов            690 байт
                4 папок  401 295 470 592 байт свободно
-
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>cd learning_log
-
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>dir
  Том в устройстве C не имеет метки.
  Серийный номер тома: 9250-BF9D
-
  Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log
-
 02.09.2025  10:27    <DIR>          .
 02.09.2025  10:27    <DIR>          ..
 02.09.2025  10:27               417 asgi.py
@@ -292,7 +288,6 @@ CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\
 02.09.2025  10:27                 0 __init__.py
                5 файлов          4 925 байт
                2 папок  401 295 536 128 байт свободно
-
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>python manage.py migrate
 python: can't open file 'C:\\Users\\Виктор\\PycharmProjects\\PythonProject2\\learning_log\\learning_log\\manage.py': [Errno 2] No such file or directory
 
@@ -413,4 +408,133 @@ Running migrations:
 
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>manage.py
 
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 02, 2025 - 11:10:05
+Django version 5.2.5, using settings 'learning_log.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+
 (ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>F\EF\
+"F\EF\" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>EF
+"EF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>E
+"E" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>F
+"F" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>\F\FE
+Системе не удается найти указанный путь.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>W
+"W" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>EF
+"EF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WE
+"WE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>FWE
+"FWE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>F
+"F" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEF
+"WEF" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>WEADWAWDADAWDAWD
+"WEADWAWDADAWDAWD" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>A
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>AWD
+"AWD" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>AWDADWAWDAWDAWDA
+"AWDADWAWDAWDAWDA" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+"WD" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>AWD
+"AWD" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 02, 2025 - 11:58:42
+Django version 5.2.5, using settings 'learning_log.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[02/Sep/2025 12:07:57] "GET / HTTP/1.1" 200 12068
+[02/Sep/2025 12:07:58] "GET / HTTP/1.1" 200 12068
