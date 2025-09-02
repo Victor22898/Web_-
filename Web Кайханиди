@@ -136,6 +136,161 @@ C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>source ll_env/
 "source" не является внутренней или внешней
 командой, исполняемой программой или пакетным файлом.
 
-C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ll_env\Scripts\activate  
+C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ll_env\Scripts\activate 
 
-(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>pip install django
+Collecting django
+  Using cached django-5.2.5-py3-none-any.whl.metadata (4.1 kB)
+Collecting asgiref>=3.8.1 (from django)
+  Using cached asgiref-3.9.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+Collecting tzdata (from django)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached django-5.2.5-py3-none-any.whl (8.3 MB)
+Using cached asgiref-3.9.1-py3-none-any.whl (23 kB)
+Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.9.1 django-5.2.5 sqlparse-0.5.3 tzdata-2025.2
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log .    
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls learning_log
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log.ls
+CommandError: 'learning_log.ls' is not a valid project name. Please make sure the name is a valid identifier.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log   
+CommandError: 'C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log' already exists
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log . 
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls learning_log django-admin startproject learning_log .
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls learning_log django-admin startproject learning_log .
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log .
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log .
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls learning_log django-admin startproject learning_log .
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log       
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27    <DIR>          learning_log
+02.09.2025  10:13    <DIR>          ll_env
+02.09.2025  10:27               690 manage.py
+               1 файлов            690 байт
+               4 папок  401 531 822 080 байт свободно
+
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>manage.py
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log .        
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log .        
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27    <DIR>          learning_log
+02.09.2025  10:13    <DIR>          ll_env
+02.09.2025  10:27               690 manage.py
+               1 файлов            690 байт
+               4 папок  401 296 326 656 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>django-admin startproject learning_log . 
+CommandError: C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\manage.py already exists. Overlaying a project into an existing directory won't replace conflicting files.
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>cd learning_log
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27               417 asgi.py
+02.09.2025  10:27             3 301 settings.py
+02.09.2025  10:27               790 urls.py
+02.09.2025  10:27               417 wsgi.py
+02.09.2025  10:27                 0 __init__.py
+               5 файлов          4 925 байт
+               2 папок  401 295 757 312 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>cd ..
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27    <DIR>          learning_log
+02.09.2025  10:13    <DIR>          ll_env
+02.09.2025  10:27               690 manage.py
+               1 файлов            690 байт
+               4 папок  401 295 470 592 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>cd learning_log
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 9250-BF9D
+
+ Содержимое папки C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log
+
+02.09.2025  10:27    <DIR>          .
+02.09.2025  10:27    <DIR>          ..
+02.09.2025  10:27               417 asgi.py
+02.09.2025  10:27             3 301 settings.py
+02.09.2025  10:27               790 urls.py
+02.09.2025  10:27               417 wsgi.py
+02.09.2025  10:27                 0 __init__.py
+               5 файлов          4 925 байт
+               2 папок  401 295 536 128 байт свободно
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log\learning_log>
