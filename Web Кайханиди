@@ -730,3 +730,13 @@ datetime.datetime(2025, 9, 3, 5, 29, 50, 404635, tzinfo=datetime.timezone.utc)
 >>> t.entry_set.all()
 <QuerySet [<Entry: Lorem ipsum dolor sit amet, consectetur adipiscing...>, <Entry: It is a long established fact that a reader will b...>]>
 >>> 
+
+Второй файл urls.py в папке learning_logs
+from django.urls import path
+from . import views
+
+app_name = 'learning_logs'
+urlpatterns = [
+    path('', views.index, name='index'),
+]
+
