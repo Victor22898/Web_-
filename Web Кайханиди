@@ -719,4 +719,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 2 Rock Climbing
 >>> 
 
+ Значения text и date_added для темы Chess:
+>>> t = Topic.objects.get(id=1)
+>>> t.text
+'Chess'
+>>> t.date_added
+datetime.datetime(2025, 9, 3, 5, 29, 50, 404635, tzinfo=datetime.timezone.utc) 
 
