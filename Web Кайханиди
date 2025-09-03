@@ -788,3 +788,17 @@ def topics(request):
     context = {'topics': topics}
     return render(request, 'learning_logs/topics.html', context)
 
+
+Вывод списка в шаблоне: 
+
+{% extends "learning_logs/base.html" %}
+{% block content %}
+  <p>Topics</p>
+  <ul>
+    {% for topic in topics %}
+      <li>{{ topic }}</li>
+    {% empty %}
+      <li>No topics ¯\_(ツ)_/¯</li>
+    {% endfor %}
+  </ul>
+{% endblock content %}
