@@ -711,5 +711,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> Topic.objects.all()
 <QuerySet [<Topic: Chess>, <Topic: Rock Climbing>]>
 
+Код просмотра идентификаторов, назначенных каждому объекту темы: 
+ topics = Topic.objects.all()
+>>> for topic in topics:print(topic.id, topic)  
+...
+1 Chess
+2 Rock Climbing
+>>> 
 
 
