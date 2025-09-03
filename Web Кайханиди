@@ -680,3 +680,23 @@ admin.site.register(Topic)
     def __str__(self):
         return f"{self.text[:50]}..."
 
+
+Добавление модели Entry:
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py makemigrations learning_logs 
+Migrations for 'learning_logs':
+  learning_logs\migrations\0002_entry.py
+    + Create model Entry
+Ошибка:
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py makemigrations learning_logs 
+No changes detected in app 'learning_logs'
+
+Процесс миграции:
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.py migrate                      
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, learning_logs, sessions
+Running migrations:
+  Applying learning_logs.0002_entry... OK
+
+
+
