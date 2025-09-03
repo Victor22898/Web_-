@@ -698,5 +698,18 @@ Operations to perform:
 Running migrations:
   Applying learning_logs.0002_entry... OK
 
+Интерактиваня оболчка Django
+
+(ll_env) C:\Users\Виктор\PycharmProjects\PythonProject2\learning_log>python manage.p
+y shell
+8 objects imported automatically (use -v 2 for details).
+
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from learning_logs.models import Topic 
+>>> Topic.objects.all()
+<QuerySet [<Topic: Chess>, <Topic: Rock Climbing>]>
+
 
 
