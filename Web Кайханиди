@@ -740,3 +740,39 @@ urlpatterns = [
     path('', views.index, name='index'),
 ]
 
+
+Код первого шаблона: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Logs Web-Site</title>
+</head>
+<body>
+<p>Learning Log</p>
+<p>Learning Log helps you and you upgreate your skills!</p>
+
+</body>
+</html>
+
+
+Код второго шаблона Base:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base base</title>
+</head>
+<body>
+
+<p>
+  <a href="{% url 'learning_logs:index' %}">Learning Log</a>
+</p>
+{% block content %}{% endblock content %}
+<a href="learning_logs/urls.py">текст ссылки</a>
+
+</body>
+</html>
+
+
